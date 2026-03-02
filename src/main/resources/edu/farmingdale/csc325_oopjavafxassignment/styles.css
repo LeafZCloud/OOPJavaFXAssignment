@@ -1,0 +1,30 @@
+.top-menu {
+    -fx-background-color: #8a4b16;
+}
+
+.left-sidebar {
+    -fx-background-color: #a56f2c;
+}
+
+.avatar-placeholder {
+    -fx-font-size: 40px;
+}
+
+.right-panel {
+    -fx-background-color: #63d100;
+}
+
+.action-button {
+    -fx-background-color: #a56f2c;
+    -fx-text-fill: black;
+    -fx-font-size: 14px;
+    -fx-background-radius: 14;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #8e8e8e;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
