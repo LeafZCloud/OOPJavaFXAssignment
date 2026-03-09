@@ -1,30 +1,64 @@
-.top-menu {
+/* Top Menu */
+.menu-bar, .top-menu {
     -fx-background-color: #8a4b16;
+    -fx-padding: 4 8 4 8;
 }
 
+.menu-bar .label {
+    -fx-text-fill: #0b0b0b;
+    -fx-font-size: 14px;
+}
+
+/* Left Panel */
 .left-sidebar {
     -fx-background-color: #a56f2c;
 }
 
-.avatar-placeholder {
-    -fx-font-size: 40px;
+/* Avatar */
+.avatar-card {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: rgba(0,0,0,0.15);
+    -fx-border-radius: 8;
+    -fx-padding: 15;
 }
 
+.avatar-placeholder {
+    -fx-font-size: 65px;   /* bigger icon */
+}
+
+/* Right Panel */
 .right-panel {
     -fx-background-color: #63d100;
 }
 
+.right-panel .text-field {
+    -fx-background-color: white;
+    -fx-border-color: rgba(0,0,0,0.2);
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 8 10 8 10;
+}
+
+/* Buttons */
 .action-button {
     -fx-background-color: #a56f2c;
     -fx-text-fill: black;
-    -fx-font-size: 14px;
-    -fx-background-radius: 14;
+    -fx-font-size: 16px;
+    -fx-background-radius: 18;
 }
 
+/* Table Header */
 .table-view .column-header-background {
-    -fx-background-color: #8e8e8e;
+    -fx-background-color: #474747;  /* darker */
 }
 
 .table-view .column-header .label {
-    -fx-text-fill: white;
+    -fx-text-fill: #8e8e8e;
+    -fx-font-weight: bold;
+}
+
+/* Darken */
+.table-row-cell:filled:selected {
+    -fx-background-color: rgba(138, 75, 22, 0.25);
 }

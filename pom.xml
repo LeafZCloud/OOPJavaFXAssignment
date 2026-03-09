@@ -61,7 +61,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                edu.farmingdale.csc325_oopjavafxassignment/edu.farmingdale.csc325_oopjavafxassignment.HelloApplication
+                                edu.farmingdale.csc325_oopjavafxassignment/edu.farmingdale.csc325_oopjavafxassignment.main
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
